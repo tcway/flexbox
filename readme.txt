@@ -1,0 +1,1 @@
+For a project in this class I developed a small webpage in order to demonstrate the CSS properties of flexible boxes, coding it making use of HTML5, CSS3, and jQuery. 
