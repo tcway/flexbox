@@ -1,0 +1,50 @@
+body {
+				background-color: black;
+				font-family: Tahoma;
+			}
+			#innerwrapper {
+				display: -webkit-flex;
+				-webkit-flex-direction: row;
+			}
+			#container {
+				padding: 10px;
+				min-width: 149px;
+				display: -webkit-flex;
+				-webkit-flex-direction: row;
+				-webkit-flex-wrap: nowrap;
+				-webkit-justify-content: flex-start;
+				-webkit-align-items: stretch;
+				-webkit-align-content: stretch;
+				background-color: lightblue;
+				-webkit-flex: 6 0 0;
+			}
+			#properties {
+				-webkit-flex: 1 0 0;
+				min-width: 500px;
+				background-color: lightgrey;
+			}
+			#container > div {
+				min-width: 50px;
+				min-height: 50px;
+			}
+			#flexbox1 {
+				background-color: lightgreen;
+				-webkit-order: 1;
+				-webkit-flex-grow: 0;
+				-webkit-flex-shrink: 1;
+				-webkit-flex-basis: auto;
+			}
+			#flexbox2 {
+				background-color: orange;
+				-webkit-order: 2;
+				-webkit-flex-grow: 0;
+				-webkit-flex-shrink: 1;
+				-webkit-flex-basis: auto;
+			}
+			#flexbox3 {
+				background-color: pink;
+				-webkit-order: 3;
+				-webkit-flex-grow: 0;
+				-webkit-flex-shrink: 1;
+				-webkit-flex-basis: auto;
+			}

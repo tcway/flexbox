@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Play with Flexbox</title>
+		<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+		<script src="play.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="play.css">
+	</head>
+	<body>
+		<div id="innerwrapper">
+			<div id="properties">
+				<fieldset>
+					<legend>Container Properties</legend>
+					<label>Flex Direction - <small>Direction of Main Axis</small></label>
+					<select id="fd">
+						<option value="row">row</option>
+						<option value="row-reverse">row-reverse</option>
+						<option value="column">column</option>
+						<option value="column-reverse">column-reverse</option>
+					</select>
+					<br>
+					<label>Flex Wrap</label>
+					<select id="fw">
+						<option value="nowrap">nowrap</option>
+						<option value="wrap">wrap</option>
+						<option value="wrap-reverse">wrap-reverse</option>
+					</select><br>
+					<label>Justify Content - <small>Spacing for Main Axis</small></label>
+					<select id="jc">
+						<option value="flex-start">flex-start</option>
+						<option value="flex-end">flex-end</option>
+						<option value="center">center</option>
+						<option value="space-around">space-around</option>
+						<option value="space-between">space-between</option>
+					</select><br>
+					<label>Align Items - <small>Spacing for Cross Axis w/ only one line</small></label>
+					<select id="ai">
+						<option value="stretch">stretch</option>
+						<option value="center">center</option>
+						<option value="flex-start">flex-start</option>
+						<option value="flex-end">flex-end</option>
+					</select><br>
+					<label>Align Content - <small>Spacing for Cross Axis w/ multiple lines</small></label>
+					<select id="ac">
+						<option value="stretch">stretch</option>
+						<option value="flex-start">flex-start</option>
+						<option value="flex-end">flex-end</option>
+						<option value="center">center</option>
+						<option value="space-around">space-around</option>
+						<option value="space-between">space-between</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Box Properties</legend>
+					<fieldset>
+						<legend>Flexbox 1</legend>
+						<label>Align Self</label>
+						<select id="as1">
+							<option value="auto">auto</option>
+							<option value="stretch">stretch</option>
+							<option value="center">center</option>
+							<option value="flex-start">flex-start</option>
+							<option value="flex-end">flex-end</option>
+							<option value="baseline">baseline</option>
+						</select>
+						<br>
+						<label>Order</label>
+						<input type="text" id="o1" value="0">
+						<br>
+						<label>Flex Grow</label>
+						<input type="text" id="fg1" value="0">
+						<br>
+						<label>Flex Shrink</label>
+						<input type="text" id="fs1" value="1">
+						<br>
+						<label>Flex Basis</label>
+						<input type="text" id="fb1" value="auto">
+					</fieldset>
+					<fieldset>
+						<legend>Flexbox 2</legend>
+						<label>Align Self</label>
+						<select id="as2">
+							<option value="auto">auto</option>
+							<option value="stretch">stretch</option>
+							<option value="center">center</option>
+							<option value="flex-start">flex-start</option>
+							<option value="flex-end">flex-end</option>
+							<option value="baseline">baseline</option>
+						</select>
+						<br>
+						<label>Order</label>
+						<input type="text" id="o2" value="0">
+						<br>
+						<label>Flex Grow</label>
+						<input type="text" id="fg2" value="0">
+						<br>
+						<label>Flex Shrink</label>
+						<input type="text" id="fs2" value="1">
+						<br>
+						<label>Flex Basis</label>
+						<input type="text" id="fb2" value="auto">
+					</fieldset>
+					<fieldset>
+						<legend>Flexbox 3</legend>
+						<label>Align Self</label>
+						<select id="as3">
+							<option value="auto">auto</option>
+							<option value="stretch">stretch</option>
+							<option value="center">center</option>
+							<option value="flex-start">flex-start</option>
+							<option value="flex-end">flex-end</option>
+							<option value="baseline">baseline</option>
+						</select>
+						<br>
+						<label>Order</label>
+						<input type="text" id="o3" value="0">
+						<br>
+						<label>Flex Grow</label>
+						<input type="text" id="fg3" value="0">
+						<br>
+						<label>Flex Shrink</label>
+						<input type="text" id="fs3" value="1">
+						<br>
+						<label>Flex Basis </label>
+						<input type="text" id="fb3" value="auto">
+					</fieldset>
+				</fieldset>
+			</div>
+			<div id="container">
+				<div id="flexbox1">
+					1
+				</div>
+				<div id="flexbox2">
+					2
+				</div>
+				<div id="flexbox3">
+					3
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
